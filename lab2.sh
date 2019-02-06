@@ -1,9 +1,7 @@
 #!/bin/bash
 
-# This script takes 3 input variables from user 
-# Note: HW Description did not specify whether these should be args or if
-#   the script is to prompt the user after execution has begun. I'm going to
-#   assume the latter, but still allow for the former.
+# This script takes 3 args (or asks for input if no args are provided), and
+# adds them together, multiplies them, and divides the first arg by the 3rd
 
 int_a=$1
 int_b=$2
