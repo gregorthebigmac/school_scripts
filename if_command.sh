@@ -1,5 +1,6 @@
 #!/bin/bash
 
+DISTRO=kinetic
 echo "Checking for any ROS repositories already installed..."
 if [ ! -f /etc/apt/sources.list.d/ros-latest.list ]; then
   echo "Setting up the official ROS repository..."
